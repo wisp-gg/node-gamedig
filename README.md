@@ -1,3 +1,8 @@
+What is this library?
+---
+This is a fork of the [original](https://github.com/sonicsnes/node-gamedig) node-gamedig library with some bug fixes/modifications for WISP.
+
+
 node-GameDig - Game Server Query Library
 ---
 node-GameDig is a game server query library, capable of querying for the status of
