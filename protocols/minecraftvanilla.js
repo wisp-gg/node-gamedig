@@ -47,6 +47,7 @@ class MinecraftVanilla extends Core {
 
         state.raw = json;
         state.maxplayers = json.players.max;
+
         if(json.players.sample) {
             for(const player of json.players.sample) {
                 state.players.push({
@@ -55,7 +56,8 @@ class MinecraftVanilla extends Core {
                 });
             }
         }
-        for (let i = 0; i < Math.min(json.players.online, 10000); i++) {
+
+        for (let i = state.players.length; i < Math.min(json.players.online, 10000); i++) {
             state.players.push({});
         }
     }
