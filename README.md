@@ -340,6 +340,7 @@ Games List
 | `unturned` | unturned
 | `urbanterror` | Urban Terror
 | `v8supercar` | V8 Supercar Challenge
+| `valheim` | Valheim
 | `ventrilo` | Ventrilo
 | `vcmp`     | Vice City Multiplayer
 | `vietcong` | Vietcong
@@ -477,6 +478,12 @@ as well: `--debug`, `--pretty`, `--socketTimeout 5000`, etc.
 
 Changelog
 ---
+
+### 2.0.22
+* Added Valheim (2021)
+
+### 2.0.21
+* Fix minecraft vanilla player count being wrong
 
 ### 2.0.20
 * Fixed minecraft protocol never throwing exceptions
