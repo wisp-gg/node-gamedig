@@ -1,6 +1,3 @@
-### 3.0.1
-Use less newer syntax to keep support for node v8 and up.
-
 ### 3.0.0
 Major Changes:
 * The `name` field is now guaranteed to exist on all player objects. If a player's name is unknown, the `name` will be an empty string.

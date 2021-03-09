@@ -483,6 +483,12 @@ as well: `--debug`, `--pretty`, `--socketTimeout 5000`, etc.
 Changelog
 ---
 
+### 3.0.2
+Fix some games not returning query data due to previous changes.
+
+### 3.0.1
+Use less newer syntax to keep support for node v8 and up.
+
 ### 3.0.0
 * Added Valheim (2021)
 

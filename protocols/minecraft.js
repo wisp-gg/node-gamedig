@@ -82,7 +82,7 @@ class Minecraft extends Core {
             if (gamespyState.name) state.name = gamespyState.name;
             if (gamespyState.maxplayers) state.maxplayers = gamespyState.maxplayers;
             if (gamespyState.players.length) state.players = gamespyState.players;
-            else if (gamespyState.raw.numplayers) state.players = parseInt(gamespyState.raw.numplayers);
+            else if (gamespyState.raw.numplayers) state.players.setNum(parseInt(gamespyState.raw.numplayers));
         }
         // remove dupe spaces from name
         state.name = state.name.replace(/\s+/g, ' ');
