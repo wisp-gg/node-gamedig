@@ -483,6 +483,9 @@ as well: `--debug`, `--pretty`, `--socketTimeout 5000`, etc.
 Changelog
 ---
 
+### 3.0.3
+Fix Players.setNum being broken
+
 ### 3.0.2
 Fix some games not returning query data due to previous changes.
 
